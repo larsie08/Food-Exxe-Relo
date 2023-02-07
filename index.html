@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modalStyle.css">
+    <link rel="stylesheet" href="css/mediaMenu.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <script src="/js/modal-menu.js" defer></script>
+    <title>Ресторан Петербурга</title>
+</head>
+<body>
+    <section class="intro fix-block">
+        <div class="main-page">
+
+            <header class="header">
+                <div class="container">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__link">
+                                    <a href="#" class="nav__menu-link">Меню</a>
+                                </li>
+                                <li class="nav__link">
+                                    <a href="#" class="nav__menu-link">Доставка</a>
+                                </li>
+                                <li class="nav__link">
+                                    <a href="#" class="nav__menu-link">Оплата</a>
+                                </li>
+                                <li class="nav__link">
+                                    <a href="#rezerv-modal" class="nav__menu-link active modal-link">Бронь столика</a>
+                                </li>
+                            </ul>
+                        </nav>
+                </div>
+            </header>
+
+            <div class="container">
+                <div class="intro__content">
+                        <h1 class="intro__title">
+                            Видовой ресторан Food Exxe Relo
+                            на Крестовском острове
+                        </h1>
+                </div>
+            </div>
+        </div>
+
+        <aside class="sidebar">
+            <div class="sidebar__header">
+                <ul class="sidebar_content__header">
+                    <li class="sidebar__logo">
+                        <a href="/" class="icons">
+                            <img src="/assets/img/logo.png">
+                        </a>
+                    </li>
+                    <li class="sidebar__menu menu-link">
+                        <a href="/" class="icons">
+                            <img src="/assets/img/gg_menu-left.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar_content__sources">
+                <ul class="sidebar_content__footer">
+                    <li class="sidebar__social">
+                        <a href="#" class="icons">
+                            <img src="/assets/img/yt-icons.png">
+                        </a>
+                    </li>
+                    <li class="sidebar__social">
+                        <a href="#" class="icons">
+                            <img src="/assets/img/vk-icons.png">
+                        </a>
+                    </li>
+                    <li class="sidebar__social">
+                        <a href="#" class="icons">
+                            <img src="/assets/img/tg-icons.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+    </section>
+
+    <section class="second-page fix-block">
+        <div class="container">
+
+            <div class="second-page__about">
+                <div class="page-about__header">
+                    <h1 class="page__header">
+                        о ресторане
+                    </h1>
+                    <div class="line">
+                        <img src="/assets/img/underline.jpg">
+                    </div>
+                </div>
+                <div class="page-about__content">
+                    <h1 class="page__title">
+                        Food Exxe Relo
+                    </h1>
+                    <div class="page__content">
+                        <p> 
+                            Sed vel ornare ut rhoncus, ac ut nibh. Amet at sit et nibh. In lectus phasellus non ornare eget velit. Facilisi urna, tristique dui, rhoncus, dolor. Tincidunt enim gravida dignissim leo pulvinar sit volutpat nulla vestibulum.
+                        </p>
+                        <p>
+                            Morbi pellentesque enim massa laoreet vel id. Lectus ac, facilisis neque turpis. Morbi massa enim nullam sem vehicula. Amet quis pellentesque enim porttitor lectus interdum. 
+                            Nisi, faucibus pharetra at porttitor. Fringilla luctus pretium in viverra. In adipiscing tempor amet malesuada ullamcorper ut sagittis. Dui, scelerisque vulputate risus massa dictum. Cras at quis in eu, faucibus feugiat vel. At.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-page__menu">
+                <div class="page-menu__header">
+                    <h1 class="page__header">
+                        меню
+                    </h1>
+                    <div class="line">
+                        <img src="/assets/img/underline.jpg">
+                    </div>
+                </div>
+                <div class="page-menu__content">
+                    <h1 class="page__title">
+                        Меню
+                    </h1>
+                    <div class="page__content">
+                        <p>
+                            At faucibus nullam mauris vitae ut non. Augue libero non nibh nec, et eget erat. Nascetur nunc neque, varius massa aliquam interdum turpis massa. Ac tortor aliquam risus, interdum nisl mauris sit. Ut placerat fermentum pellentesque ac at.
+                            Vitae venenatis faucibus urna mi eget vitae quam eu. Euismod sed mauris id turpis iaculis. Erat rutrum dolor, vitae morbi.
+                        </p>
+                        <p>
+                            Nunc cras cras aliquet blandit faucibus massa sagittis semper. 
+                        </p>
+                    </div>
+                </div>
+                <div class="page-menu__footer">
+                    <div class="main-menu__block">
+                        <div class="block__img">
+                            <img src="/assets/img/menu_1.png" class="menu">
+                        </div>
+                        <div class="block__footer">
+                            <h1 class="page__header">Основное меню</h1>
+                            <div class="line">
+                                <img src="/assets/img/underline.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-menu__block">
+                        <div class="block__img">
+                            <img src="/assets/img/menu_2.png" class="menu">
+                        </div>
+                        <div class="block__footer">
+                            <h1 class="page__header">Барная карта</h1>
+                            <div class="line">
+                                <img src="/assets/img/underline.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-page__delivery">
+                <div class="page-delivery__header">
+                    <h1 class="page__header">доставка</h1>
+                    <div class="line">
+                        <img src="/assets/img/underline.jpg">
+                    </div>
+
+                </div>
+                <div class="page-delivery__content">
+                    <h1 class="page__title">Служба<br>доставки</h1>
+                    <div class="page__content">
+                        <p>
+                            Phasellus diam, ultrices lobortis integer et. Diam, purus vel sagittis, non, a. In risus, venenatis enim vitae mauris aliquet orci. 
+                            Consectetur nibh interdum nullam ut lobortis eu etiam sem. Et in vitae pellentesque non, lectus orci natoque faucibus suspendisse. Semper aliquam id et ultrices velit donec lacus. 
+                            In odio sit nibh volutpat cras placerat sit feugiat dignissim. Rutrum et suspendisse tortor, lobortis eleifend in fringilla. Egestas cursus imperdiet cursus dui, nulla id massa. 
+                            Hendrerit nam enim semper porttitor imperdiet diam semper. Nulla sit etiam cras morbi enim elementum euismod sapien.
+                        </p>
+                    </div>
+                </div>
+                <div class="page-delivery__footer">
+                    <ul class="delivery__btn">
+                        <li class="btn btn_left">
+                            <a href="#" class="page__btn-left">Подробнее</a>
+                        </li>
+                        <li class="btn btn_right">
+                            <a href="#" class="page__btn-right">Условия доставки</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="second-page__contacts">
+                <div class="page-contacts__header">
+                    <h1 class="page__header">контакты</h1>
+                    <div class="line">
+                        <img src="/assets/img/underline.jpg">
+                    </div>
+                </div>
+                <div class="page-contacts__content">
+
+                    <div class="page__time">
+                        <div class="block__top">
+                            <div class="contacts__block">
+                                <div class="block__header">
+                                    <h1 class="block__title">2</h1>
+                                    <h2 class="block__min">мин</h2>
+                                </div>
+                                <p class="block__content">из центра<br>Санкт-Петербурга</p>
+                            </div>
+                            <div class="contacts__block">
+                                <div class="block__header">
+                                    <h1 class="block__title">12</h1>
+                                    <h2 class="block__min">мин</h2>
+                                </div>
+                                <p class="block__content">из города<br>Зеленогорск</p>
+                            </div>
+                        </div>
+                        <div class="block__bottom">
+                            <div class="contacts__block">
+                                <div class="block__header">
+                                    <h1 class="block__title">42</h1>
+                                    <h2 class="block__min">мин</h2>
+                                </div>
+                                <p class="block__content">из аэропорта<br>пулково</p>
+                            </div>
+                            <div class="contacts__block">
+                                <div class="block__header">
+                                    <h1 class="block__title">52</h1>
+                                    <h2 class="block__min">мин</h2>
+                                </div>
+                                <p class="block__content">из города<br>Павловск</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page__information">
+                        <div class="info-block">
+                            <div class="info info__adress">
+                                <div class="info__img">
+                                    <img src="/assets/img/Vector.png">
+                                </div>
+                                <p>Санкт-Петербург, Северная дорога, 11 </p>
+                            </div>
+                            <div class="info info__phone-number">
+                                <div class="info__img">
+                                    <img src="/assets/img/phone.png">
+                                </div>
+                                <p>+7 (921) 777-77-77</p>
+                            </div>
+                            <div class="block__worktime">
+                                <h1 class="worktime__header">Время работы</h1>
+                                <div class="worktime__content">
+                                    <div class="worktime__top">
+                                        <h1 class="days">Вск-Чт</h1>
+                                        <h2 class="time">с 12:00 до 23:00</h2>
+                                    </div>
+                                    <div class="worktime__bottom">
+                                        <h1 class="days">Пт-Сб</h1>
+                                        <h2 class="time">с 12:00 до 03:00</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info__footer">
+                                <ul class="info__list-btn">
+                                    <li class="list__btn-left">
+                                        <a href="#rezerv-modal" class="nav__menu-link active modal-link">Бронь столика</a>
+                                    </li>
+                                    <li class="list__btn-right">
+                                        <a href="#" class="info__btn">Задать вопрос</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="page__background"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="second-page__footer">
+            <div class="container">
+                <div class="page-footer__content">
+                    <ul class="page-footer__link">
+                        <li class="footer__link">
+                            <a href="#">
+                                <img src="/assets/img/logo.png">
+                            </a>
+                        </li>
+                    </ul>
+                    <h4 class="footer__content content-center">Политика конфиденциальности</h4>
+                    <h5 class="footer__content content-end">Дизайн d-e-n.ru</h5>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <div class="rezerv-modal fix-block">
+        <div class="rezerv-modal__wrapper">
+            <div class="rezerv-modal__content">
+                <div class="rezerv-modal__close close-modal">
+                    <a href="#" class="rezerv__close">
+                        <img src="/assets/img/close.png">
+                    </a>
+                </div>
+                <div class="rezerv-modal__logo">
+                    <a href="#" class="rezerv__logo">
+                        <img src="/assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="rezerv-modal__title">
+                    <h4>Забронировать столик</h4>
+                </div>
+                <form class="rezerv-modal__form">
+                    <label class="name-label form-label">
+                        <input type="text" placeholder="Имя" class="input">
+                    </label>
+                    <label class="tel-label form-label">
+                        <input type="tel" placeholder="Телефон" class="input">
+                    </label>
+                    <div class="block__form">
+                        <label class="number-label form-label">
+                            <input type="number" placeholder="Гостей" class="input block-input__left">
+                        </label>
+                        <label class="time-label form-label">
+                            <input type="number" placeholder="Время" class="input block-input__right">
+                        </label>
+                    </div>
+                </form>
+                <div class="rezerv-modal__footer">
+                    <a href="#" class="rezerv__button">Забронировать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="media-menu">
+        <div class="media-menu__content">
+
+            <ul class="menu__header">
+                <li class="menu__logo">
+                    <a href="#" class="icon-logo">
+                        <img src="/assets/img/logo.png">
+                    </a>
+                </li>
+                <li class="menu__close close-menu">
+                    <a href="#" class="icon-close">
+                        <img src="assets/img/mini-close.png">
+                    </a>
+                </li>
+            </ul>
+
+            <div class="menu__middle">
+                <ul class="menu__content">
+                    <li class="media-menu__link">
+                       <a href="#" class="media-link">Меню</a> 
+                    </li>
+                    <li class="media-menu__link">
+                        <a href="#" class="media-link">Доставка</a>
+                    </li>
+                    <li class="media-menu__link">
+                        <a href="#" class="media-link">Оплата</a>
+                    </li>
+                    <li class="media-menu__link">
+                        <a href="#" class="active modal-link">Бронь столика</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="menu__footer">
+                <ul class="menu__social">
+                    <li class="menu-icons">
+                        <a href="#">
+                            <img src="assets/img/yt-icons.png">
+                        </a>
+                    </li>
+                    <li class="menu-icons">
+                        <a href="#">
+                            <img src="assets/img/vk-icons.png">
+                        </a>
+                    </li>
+                    <li class="menu-icons">
+                        <a href="#">
+                            <img src="assets/img/tg-icons.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</body>
+</html>

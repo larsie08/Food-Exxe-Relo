@@ -1,0 +1,125 @@
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.rezerv-modal {
+    position: fixed;
+    width: 100%;
+    max-width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 2;
+
+    transition: opacity ease .7s, visibility ease .7s;
+}
+.open {
+    opacity: 1;
+    visibility: visible;
+
+    transition: opacity ease .7s, visibility ease .7s;
+}
+.rezerv-modal__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    min-height: 100%;
+}
+@media (min-width: 576px) {
+    .rezerv-modal__wrapper {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+.rezerv-modal__content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    background-color: #333333;
+    position: relative;
+}
+.rezerv-modal__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.rezerv-modal__close {
+    display: flex;
+    justify-content: flex-end;
+}
+.rezerv-modal__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+}
+.rezerv-modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.name-label, .tel-label {
+    width: 300px;
+    margin-bottom: 30px;
+}
+.block__form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.input {
+    border: 1px solid rgba(255 ,255 ,255 ,.3);
+    width: 100%;
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+    background-color: #333333;
+}
+.input::placeholder {
+    opacity: 1;
+    color: white;
+}
+.block-input__left, .block-input__right {
+    width: 130px;
+}
+.rezerv-modal__footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px;
+}
+.rezerv__button {
+    padding: 15px;
+    font-weight: 700;
+    line-height: 140%;
+    color: white;
+    background-color: #B59571;
+    text-decoration: none;
+}
+.disable-scroll {
+    overflow: hidden;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
